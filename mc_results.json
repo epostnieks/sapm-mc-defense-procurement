@@ -1,0 +1,141 @@
+{
+  "paper_id": "defense_procurement",
+  "config_file": "pipeline/mc_configs/defense_procurement.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 33.7,
+  "beta_w": {
+    "median": 4.88,
+    "mean": 4.88,
+    "std": 0.4,
+    "p1": 3.97,
+    "p5": 4.23,
+    "p95": 5.54,
+    "p99": 5.81,
+    "ci_90": [
+      4.2,
+      5.5
+    ],
+    "ci_99": [
+      4.0,
+      5.8
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 2.0,
+    "p_below_floor": 0.0,
+    "p_below_floor_pct": "0.0000%"
+  },
+  "welfare_cost": {
+    "total_median_B": 164.4,
+    "total_mean_B": 164.5,
+    "total_p5_B": 142.6,
+    "total_p95_B": 186.6
+  },
+  "pi_sa": {
+    "median_B": 130.7,
+    "mean_B": 130.8,
+    "p5_B": 108.9,
+    "p95_B": 152.9
+  },
+  "channel_statistics": {
+    "C1_cost_overrun_xinefficiency": {
+      "median": 60.0,
+      "mean": 60.0,
+      "p5": 49.9,
+      "p95": 70.0,
+      "std": 6.1
+    },
+    "C2_monopoly_rent": {
+      "median": 30.0,
+      "mean": 30.0,
+      "p5": 24.0,
+      "p95": 36.0,
+      "std": 3.7
+    },
+    "C3_opportunity_cost": {
+      "median": 38.7,
+      "mean": 38.7,
+      "p5": 31.1,
+      "p95": 46.3,
+      "std": 4.7
+    },
+    "C4_readiness_degradation": {
+      "median": 17.6,
+      "mean": 17.6,
+      "p5": 14.0,
+      "p95": 21.2,
+      "std": 2.2
+    },
+    "C5_political_economy": {
+      "median": 7.0,
+      "mean": 7.1,
+      "p5": 5.0,
+      "p95": 9.8,
+      "std": 1.5
+    },
+    "C6_governance_institutional_failure": {
+      "median": 11.1,
+      "mean": 11.1,
+      "p5": 7.9,
+      "p95": 14.3,
+      "std": 2.0
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 3.99,
+        "dc_10pct": 3.59,
+        "dc_20pct": 3.19,
+        "dc_30pct": 2.79,
+        "dc_40pct": 2.39
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 4.43,
+        "dc_10pct": 3.99,
+        "dc_20pct": 3.55,
+        "dc_30pct": 3.1,
+        "dc_40pct": 2.66
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 4.88,
+        "dc_10pct": 4.39,
+        "dc_20pct": 3.9,
+        "dc_30pct": 3.41,
+        "dc_40pct": 2.93
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 5.32,
+        "dc_10pct": 4.79,
+        "dc_20pct": 4.26,
+        "dc_30pct": 3.73,
+        "dc_40pct": 3.19
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 5.77,
+        "dc_10pct": 5.19,
+        "dc_20pct": 4.61,
+        "dc_30pct": 4.04,
+        "dc_40pct": 3.46
+      }
+    }
+  ]
+}
